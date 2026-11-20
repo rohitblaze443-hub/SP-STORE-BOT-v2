@@ -459,7 +459,7 @@ def init_db() -> None:
 
     # Removed feature settings are intentionally ignored by the UI.
     # Their old database values may remain, but no button or handler exposes them.
-.   #@red_x_gps
+  #@red_x_gps
 def migrate_categories() -> None:
     done = get_setting("migration_done", "0")
     
